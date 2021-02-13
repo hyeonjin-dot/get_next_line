@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: hyejung <hyejung@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/30 18:36:02 by hyejung           #+#    #+#             */
-/*   Updated: 2021/01/30 18:52:01 by hyejung          ###   ########.fr       */
+/*   Created: 2021/02/13 18:26:51 by hyejung           #+#    #+#             */
+/*   Updated: 2021/02/13 18:26:59 by hyejung          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 
-size_t	ft_strlen(const char *str)
+int		ft_strlen(const char *str)
 {
-	size_t	i;
+	int		i;
 
 	i = 0;
 	while (*str != '\0')

@@ -6,7 +6,7 @@
 /*   By: hyejung <hyejung@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/16 19:41:34 by hyejung           #+#    #+#             */
-/*   Updated: 2021/02/03 21:12:08 by hyejung          ###   ########.fr       */
+/*   Updated: 2021/02/13 18:18:30 by hyejung          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,10 @@
 #  define OPEN_MAX 1024
 # endif
 
-int        get_next_line(int fd, char **line);
-size_t    ft_strlen(const char *str);
-char    *ft_strdup(const char *s);
-char    *ft_strjoin(char const *s1, char const *s2);
-void    *ft_memcpy(void *dest, const void *src, size_t n);
+int		get_next_line(int fd, char **line);
+int		ft_strlen(const char *str);
+char	*ft_strdup(const char *s);
+void	*ft_memcpy(void *dest, const void *src, size_t n);
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif

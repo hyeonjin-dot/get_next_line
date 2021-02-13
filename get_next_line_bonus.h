@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: hyejung <hyejung@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/30 18:34:50 by hyejung           #+#    #+#             */
-/*   Updated: 2021/01/30 18:51:22 by hyejung          ###   ########.fr       */
+/*   Created: 2021/02/13 18:26:15 by hyejung           #+#    #+#             */
+/*   Updated: 2021/02/13 18:26:37 by hyejung          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,9 @@
 # endif
 
 int		get_next_line(int fd, char **line);
-
-size_t	ft_strlen(const char *str);
+int		ft_strlen(const char *str);
 char	*ft_strdup(const char *s);
-char	*ft_strjoin(char const *s1, char const *s2);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif
